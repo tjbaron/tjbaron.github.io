@@ -1,75 +1,44 @@
+<style>
+    body {
+        background: linear-gradient(rgb(196,196,196), white);
+        color: black;
+    }
+    a {
+        display: block;
+        text-align: center;
+        background: rgb(32,32,32);
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        transition: 0.5s;
+        margin: 10px auto;
+        width: 300px;
+    }
+    a:hover {
+        background: rgb(64,64,64);
+    }
+</style>
 
-# About
+# Baron Creations
 
-* [Github Profile](https://github.com/tjbaron)
+[YouTube](https://www.youtube.com/channel/UC03FLxZfBJkM3XjP4q13yUw)
 
-# Open Git Repositories
+[Medium](https://link.medium.com/XN9C6jYE3fb)
 
-The following personal projects are available on my Github account. Note that most of my work is closed-source and source code can not be shared.
+[Instagram](https://www.instagram.com/baroncreations/)
 
-## [TF Create](https://github.com/tjbaron/TF-Create)
+[Twitch](https://m.twitch.tv/baroncreator)
 
-![TF Create Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/tfcreate.jpg)
+[GitHub](https://github.com/tjbaron)
 
-This is a 2D vector graphics and animation web application I was creating to experiment with graphics, WebGL and Linear Algebra. This version focused on image processing algorithms and hardware acceleration via WebGL. Previous versions focused on inverse kinematics, collision detection and animation.
+[Discord](https://discord.gg/379ZamVM)
 
-## [IR Graphics Shader for Unity](https://github.com/tjbaron/UnityInfrared)
+## Projects
 
-![Infrared Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/ir.jpg)
+[Creator](https://creator.baroncreations.com/)
 
-This GPU shader mimics images from IR cameras. It allows you to specify the temperature range of each scene object, and use a texture to show temperature variations. Manipulation of each objects temperature range allows heat up and cool down effects.
+## Lists
 
-## [Planetary Mesh Generation for Unity](https://github.com/tjbaron/UnityTerrain)
+[Travelled Countries](https://airtable.com/shrZTA2ZHoCI7fgGk)
 
-![Planet Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/planet.jpg)
-
-This system allows the creation of spherical terrains using stacked noise algorithms (Perlin, Worley etc) and heightmaps together. Heightmaps can be imported or created directly in Unity using a custom brush tool. A level of detail system was implemented and GPU accelerated algorithms (via Compute Shaders) are in development. The usage of noise algorithms allow the planets to appear extremely detailed while using very little storage (a seed is used).
-
-## [Light Prop](https://github.com/tjbaron/PropLight)
-
-![Light Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/lightprop.jpg)
-
-This weekend project allowed professional grade rgb film lights to mimic a source video (or be controlled by writing custom equations). It includes two parts: A desktop app written in Javascript and packaged using Electron; A Node.js app that runs on a Raspberry Pi and connects to the studio light via the industry standard DMX protocol and a small circuit.
-
-# Closed Source Software Projects
-
-## [TF Language](https://tflanguage.com)
-
-![TF Language Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/tflang1.jpg)
-![TF Language Screenshot2](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/tflang2.jpg)
-
-I wrote this application to help me study Japanese. While creating it I implemented a custom fuzzy search algorithm, Japanese parsing, conjugation/deconjugation features and various spaced repitition exercises. I designed it to be horizontally scalable and learned a lot about distributed systems and modern cloud architectures.
-
-## ASL Assessment Portal
-
-![ASL Portal Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/assess.png)
-![ASL Portal Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/question.jpg)
-
-I created this application to host ability assessment for children learning American Sign Language (ASL). I created the primary application while another developer focused on "Question Types" used within the portal. Experts in ASL were then able to input questions to conduct their research. The core application offers user account management, assessment creation tools, and data aggregation/exporting features.
-
-## Lakeland FlexStation and Energy Portal
-![Energy Portal Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/flex.jpg)
-
-This software was written for Lakeland College to monitor and study solar energy and wind generation installations. I was the primary software developer in a small team of about 5 people and collaborated with hardware engineers, techinicians and energy researchers. The FlexStation component used C++ and Python and ran on a single board computer (SBC). It interfaced with consumer and commercial hardware including programmable logic controllers (PLCs), and was responsible for collecting data that would otherwise be segregated. The Energy Portal was designed as a horizontally scalable web service that allowed data aggregation, visualization and download.
-
-## Billy Saves The World
-
-![Billy Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/billy.jpg)
-![Billy2 Screenshot](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/billy2.jpg)
-
-This 2D sidescroller features an open world. Using Unity, I created dialog, behaviour and level editing systems to allow non-technical creative professionals to build out a visually simple, but very detail oriented world.
-
-# Other
-
-## 3D Modelling
-
-As a hobby, I have previously done 3D modelling using Cinema 4D and Maya. The following are images of some of the models I have created.
-
-![CamaroImg](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/camarofront.jpg)
-![CamaroImg2](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/camaroback.jpg)
-![Ecabin](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/ecabin.jpg)
-![Theatre](https://raw.githubusercontent.com/tjbaron/tjbaron.github.io/master/img/theatre.jpg)
-
-## [Love/Hate](http://www.imdb.com/title/tt1950252/)
-
-For this independent feature film I did 3D motion tracking work and 2D graphics.
+[Watched Anime](https://airtable.com/shrn9nor5j9cUsN9i)
